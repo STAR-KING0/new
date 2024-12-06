@@ -1,0 +1,13 @@
+.chat-message {
+  padding: 8px;
+  margin: 5px 0;
+  background-color: #f1f1f1;
+  border-radius: 5px;
+}
+
+.chat-notification {
+  padding: 5px;
+  margin: 5px 0;
+  color: #555;
+  font-style: italic;
+}
