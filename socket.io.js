@@ -12,7 +12,7 @@ const username = window.localStorage.getItem('username');
 
 // If no username is found, redirect to login
 if (!username) {
-  window.location.href = 'index.html'; // Redirect to login page
+  window.location.href = 'login.html'; // Redirect to login page
 } else {
   // Set the username in the chat page header
   userNickname.textContent = username;
